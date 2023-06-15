@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Vending Machine</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="card text-center mt-5">
+            <div class="card-header">
+              <h5 class="card-title">Vending Machine</h5>
+            </div>
+            <div class="card-body">
+              <div class="display mb-4">Please Select A Product</div>
+              <div class="form-group">
+                <label for="moneyInput">Enter Money:</label>
+                <input type="number" class="form-control" id="moneyInput" />
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <button
+                    class="btn btn-primary btn-block mb-2"
+                    onclick="selectProduct(1)"
+                  >
+                    Orange Juice
+                  </button>
+                  <button
+                    class="btn btn-primary btn-block mb-2"
+                    onclick="selectProduct(2)"
+                  >
+                    Soda
+                  </button>
+                  <button
+                    class="btn btn-primary btn-block mb-2"
+                    onclick="selectProduct(3)"
+                  >
+                    Chocolate Snack
+                  </button>
+                  <button
+                    class="btn btn-primary btn-block mb-2"
+                    onclick="selectProduct(4)"
+                  >
+                    Cookies
+                  </button>
+                </div>
+                <div class="col-md-6">
+                  <button
+                    class="btn btn-primary btn-block mb-2"
+                    onclick="selectProduct(5)"
+                  >
+                    Gummy Bears
+                  </button>
+                  <button
+                    class="btn btn-primary btn-block mb-2"
+                    onclick="selectProduct(6)"
+                  >
+                    Condoms
+                  </button>
+                  <button
+                    class="btn btn-primary btn-block mb-2"
+                    onclick="selectProduct(7)"
+                  >
+                    Crackers
+                  </button>
+                  <button
+                    class="btn btn-primary btn-block mb-2"
+                    onclick="selectProduct(8)"
+                  >
+                    Potato Chips
+                  </button>
+                  <button
+                    class="btn btn-primary btn-block mb-2"
+                    onclick="selectProduct(9)"
+                  >
+                    Small Snack
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
